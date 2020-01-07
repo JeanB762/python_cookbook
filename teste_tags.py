@@ -15,4 +15,4 @@ for tag, *args in dados:
     if tag == 'teste1':
         test1(*args)
     elif tag == 'teste2':
-        test2(*args)
+        test2(args)

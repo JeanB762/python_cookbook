@@ -36,7 +36,7 @@ for tag, *args in records:  #tag pick the first paramenter and *args pick anothe
     if tag == 'foo':
         do_foo(*args)
     elif tag == 'bar':
-        do_bar(*args)
+        do_bar(args)
 
 
 ##Star unpacking can also be used with kinds of string processing such as splitting.
