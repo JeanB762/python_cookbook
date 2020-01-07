@@ -63,3 +63,4 @@ def sum(items):         #the kind of recursive sum with splitting
     return head + sum(tail) if tail else head
 
 print(sum(items))
+

@@ -16,3 +16,5 @@ for tag, *args in dados:
         test1(*args)
     elif tag == 'teste2':
         test2(args)
+
+        

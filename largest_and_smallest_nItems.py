@@ -46,3 +46,4 @@ print(heapq.heappop(heap))
 print(heapq.heappop(heap))
 print(heapq.heappop(heap))
 print(heap)
+
